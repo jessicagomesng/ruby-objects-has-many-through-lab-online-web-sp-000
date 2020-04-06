@@ -4,7 +4,7 @@ class Artist
 
   @@all = []
 
-  def initialize
+  def initialize(name)
     @@all << self
   end
 
@@ -27,6 +27,6 @@ class Artist
     songs.collect do |song|
       song.genre
     end
-  end 
+  end
 
 end
