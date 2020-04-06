@@ -23,10 +23,10 @@ class Artist
     newsong
   end
 
-  def genres 
+  def genres
     songs.collect do |song|
-      song.genre 
-    end 
+      song.genre
+    end
   end 
 
 end
