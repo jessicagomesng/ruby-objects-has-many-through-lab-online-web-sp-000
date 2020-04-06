@@ -8,12 +8,15 @@ class Doctor
     @name = name
     @@all << self
   end
-  
+
   def self.all
     @@all
-  end 
+  end
 
   def appointments
+    Appointment.all.select do |appointment|
+      appointment.doctor == self
+    end 
   end
 
   def new_appointment
@@ -22,4 +25,4 @@ class Doctor
   def patients
   end
 
-end 
+end
