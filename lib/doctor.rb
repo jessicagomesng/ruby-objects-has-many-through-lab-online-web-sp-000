@@ -10,10 +10,12 @@ class Doctor
   end
 
   def appointments
-  end 
+  end
 
-  def new_appointment 
-  end 
+  def new_appointment
+  end
 
   def patients
-  end 
+  end
+
+end 
