@@ -23,4 +23,6 @@ class Artist
     newsong
   end 
 
+  def genres 
+
 end
